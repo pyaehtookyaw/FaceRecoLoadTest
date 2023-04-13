@@ -41,7 +41,7 @@
 						{
 							"key": "image",
 							"type": "file",
-							"src": "/Users/cidivision/Downloads/Old data/photo_2023-04-06 14.48.08.jpeg"
+							"src": "./photo_2023-04-06 14.48.08.jpeg"
 						},
 						{
 							"key": "mode",
