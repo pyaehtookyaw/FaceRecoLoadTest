@@ -7,5 +7,6 @@ jobs:
     steps:
       - checkout
       - newman/newman-run:
-          collection: /Users/cidivision/FaceRecoTest/FaceRecoTest.postman_collection.json
-          environment: /Users/cidivision/FaceRecoTest/FaceReco.postman_environment.json
+          collection: ./FaceRecoTest.postman_collection.json
+          environment: ./FaceReco.postman_environment.json
+#/Users/cidivision/FaceRecoTest
