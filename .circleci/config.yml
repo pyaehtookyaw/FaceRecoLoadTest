@@ -9,7 +9,7 @@ jobs:
       - newman/newman-run:
           collection: ./FaceRecoTest.postman_collection.json
           environment: ./FaceReco.postman_environment.json
-    parallelism: 50
+    parallelism: 30
 # jobs1:
 #   build:
 #     executor: newman/postman-newman-docker
