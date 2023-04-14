@@ -35,13 +35,13 @@
 					"formdata": [
 						{
 							"key": "employee_id",
-							"value": "R000213",
-							"type": "default"
+							"value": "R001215",
+							"type": "text"
 						},
 						{
 							"key": "image",
 							"type": "file",
-							"src": "https://github.com/pyaehtookyaw/FaceRecoLoadTest/blob/main/photo_2023-04-06%2014.47.47.jpeg"
+							"src": "photo_2023-04-06 14.48.08.jpeg"
 						},
 						{
 							"key": "mode",
