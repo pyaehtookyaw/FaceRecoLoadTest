@@ -9,84 +9,84 @@ jobs:
       - newman/newman-run:
           collection: ./FaceRecoTest.postman_collection.json
           environment: ./FaceReco.postman_environment.json
-jobs1:
-  build:
-    executor: newman/postman-newman-docker
-    steps:
-      - checkout
-      - newman/newman-run:
-          collection: ./FaceRecoTest.postman_collection.json
-          environment: ./FaceReco.postman_environment.json
-jobs2:
-  build:
-    executor: newman/postman-newman-docker
-    steps:
-      - checkout
-      - newman/newman-run:
-          collection: ./FaceRecoTest.postman_collection.json
-          environment: ./FaceReco.postman_environment.json
-jobs3:
-  build:
-    executor: newman/postman-newman-docker
-    steps:
-      - checkout
-      - newman/newman-run:
-          collection: ./FaceRecoTest.postman_collection.json
-          environment: ./FaceReco.postman_environment.json
-jobs4:
-  build:
-    executor: newman/postman-newman-docker
-    steps:
-      - checkout
-      - newman/newman-run:
-          collection: ./FaceRecoTest.postman_collection.json
-          environment: ./FaceReco.postman_environment.json
-jobs5:
-  build:
-    executor: newman/postman-newman-docker
-    steps:
-      - checkout
-      - newman/newman-run:
-          collection: ./FaceRecoTest.postman_collection.json
-          environment: ./FaceReco.postman_environment.json
-jobs6:
-  build:
-    executor: newman/postman-newman-docker
-    steps:
-      - checkout
-      - newman/newman-run:
-          collection: ./FaceRecoTest.postman_collection.json
-          environment: ./FaceReco.postman_environment.json
-jobs7:
-  build:
-    executor: newman/postman-newman-docker
-    steps:
-      - checkout
-      - newman/newman-run:
-          collection: ./FaceRecoTest.postman_collection.json
-          environment: ./FaceReco.postman_environment.json
-jobs8:
-  build:
-    executor: newman/postman-newman-docker
-    steps:
-      - checkout
-      - newman/newman-run:
-          collection: ./FaceRecoTest.postman_collection.json
-          environment: ./FaceReco.postman_environment.json
-jobs9:
-  build:
-    executor: newman/postman-newman-docker
-    steps:
-      - checkout
-      - newman/newman-run:
-          collection: ./FaceRecoTest.postman_collection.json
-          environment: ./FaceReco.postman_environment.json
-jobs10:
-  build:
-    executor: newman/postman-newman-docker
-    steps:
-      - checkout
-      - newman/newman-run:
-          collection: ./FaceRecoTest.postman_collection.json
-          environment: ./FaceReco.postman_environment.json          
+# jobs1:
+#   build:
+#     executor: newman/postman-newman-docker
+#     steps:
+#       - checkout
+#       - newman/newman-run:
+#           collection: ./FaceRecoTest.postman_collection.json
+#           environment: ./FaceReco.postman_environment.json
+# jobs2:
+#   build:
+#     executor: newman/postman-newman-docker
+#     steps:
+#       - checkout
+#       - newman/newman-run:
+#           collection: ./FaceRecoTest.postman_collection.json
+#           environment: ./FaceReco.postman_environment.json
+# jobs3:
+#   build:
+#     executor: newman/postman-newman-docker
+#     steps:
+#       - checkout
+#       - newman/newman-run:
+#           collection: ./FaceRecoTest.postman_collection.json
+#           environment: ./FaceReco.postman_environment.json
+# jobs4:
+#   build:
+#     executor: newman/postman-newman-docker
+#     steps:
+#       - checkout
+#       - newman/newman-run:
+#           collection: ./FaceRecoTest.postman_collection.json
+#           environment: ./FaceReco.postman_environment.json
+# jobs5:
+#   build:
+#     executor: newman/postman-newman-docker
+#     steps:
+#       - checkout
+#       - newman/newman-run:
+#           collection: ./FaceRecoTest.postman_collection.json
+#           environment: ./FaceReco.postman_environment.json
+# jobs6:
+#   build:
+#     executor: newman/postman-newman-docker
+#     steps:
+#       - checkout
+#       - newman/newman-run:
+#           collection: ./FaceRecoTest.postman_collection.json
+#           environment: ./FaceReco.postman_environment.json
+# jobs7:
+#   build:
+#     executor: newman/postman-newman-docker
+#     steps:
+#       - checkout
+#       - newman/newman-run:
+#           collection: ./FaceRecoTest.postman_collection.json
+#           environment: ./FaceReco.postman_environment.json
+# jobs8:
+#   build:
+#     executor: newman/postman-newman-docker
+#     steps:
+#       - checkout
+#       - newman/newman-run:
+#           collection: ./FaceRecoTest.postman_collection.json
+#           environment: ./FaceReco.postman_environment.json
+# jobs9:
+#   build:
+#     executor: newman/postman-newman-docker
+#     steps:
+#       - checkout
+#       - newman/newman-run:
+#           collection: ./FaceRecoTest.postman_collection.json
+#           environment: ./FaceReco.postman_environment.json
+# jobs10:
+#   build:
+#     executor: newman/postman-newman-docker
+#     steps:
+#       - checkout
+#       - newman/newman-run:
+#           collection: ./FaceRecoTest.postman_collection.json
+#           environment: ./FaceReco.postman_environment.json          
 #/Users/cidivision/FaceRecoTest
